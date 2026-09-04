@@ -1,0 +1,17 @@
+[project]
+name = "py4web-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Rakesh Singh", email = "rakesh@sysras.com" }
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+py4web-project = "py4web_project:main"
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"
