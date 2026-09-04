@@ -7,7 +7,9 @@ authors = [
     { name = "Rakesh Singh", email = "rakesh@sysras.com" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "py4web>=1.20260805.0",
+]
 
 [project.scripts]
 py4web-project = "py4web_project:main"
